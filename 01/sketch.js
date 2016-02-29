@@ -1,4 +1,3 @@
-var spinerino = 10;
 var timer = 0;
 
 function setup() {
