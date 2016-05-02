@@ -66,13 +66,17 @@ function processFlesch(data) {
     var r1 = totalSyllables / totalWords;
     var r2 = totalWords / totalSentences;
     var flesch = f1 - (f2 * r1) - (f3 * r2);
-    var r1 = 4.71;
-    var r2 = len/totalWords;
-    var r3 = 0.5;
-    var r4 = totalWords/totalSentences;
-    var r5 = 21.43;
+    var t1 = 4.71;
+    var t2 = length-1/totalWords;
+    var t3 = 0.5;
+    var t4 = totalWords/totalSentences;
+    var t5 = 21.43;
 
-    var index = r1 * r2 + r3 * r4 -r5;
+    var auto1 = t1 * t2;
+    var auto2 = t3 * t4;
+    var auto3 = t5;
+
+    var index = auto1 + auto2 - auto3;
     
     /*var report = "";
     
