@@ -1,0 +1,25 @@
+{
+  "name": "npm_demo",
+  "version": "1.0.0",
+  "description": "test for twitter bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Levitaar/levitaar.github.io.git"
+  },
+  "keywords": [
+    "puns"
+  ],
+  "author": "Levitaar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Levitaar/levitaar.github.io/issues"
+  },
+  "homepage": "https://github.com/Levitaar/levitaar.github.io#readme",
+  "dependencies": {
+    "twit": "^2.2.4"
+  }
+}

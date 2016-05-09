@@ -2,21 +2,28 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title> Luis Huiza Project #5: Regular Expressions </title>
+    <title>Luis Huiza Project #5 : Regex </title>
     <script src="libraries/p5.js" type="text/javascript"></script>
 
     <script src="libraries/p5.dom.js" type="text/javascript"></script>
     <script src="libraries/p5.sound.js" type="text/javascript"></script>
 
-    <script src="class4.js" type="text/javascript"></script>
+    <script src="class5.js" type="text/javascript"></script>
 
-    <style> 
-      
-    </style>
+    <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>
   </head>
   <body>
 
-      <p> Regular Expression (Regex)</p>
+  <h1>Regular Expression Test:</h1>
+    <p>Insert some text in this box, I'll search the word "Trump" and state if its there or not</p>
+    <p>
+      <div id="dropzone"></div>
+    <p>
+      <textarea id="textinput" rows="10" cols="80">/Text goes here/</textarea><br>
+      <button id="submit" onclick="wordSearch()">Submit</button>
+    </p>
+
+    <p id="output"></p>
 
   </body>
 </html>
